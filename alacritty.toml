@@ -1,15 +1,15 @@
-import = ["~/.config/alacritty/catppuccin-mocha.toml"]
+import = ["~/.config/alacritty/dracula.toml"]
 
 [window]
 startup_mode = "Maximized"
-title = "askfjasflkajf"
+title = "maen"
 
 [env]
 TERM = "xterm-256color"
 
 [font]
 size = 10
-normal      = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+normal      = { family = "JetBrainsMono Nerd Font", style = "Normal" }
 bold        = { family = "JetBrainsMono Nerd Font", style = "Bold" }
 italic      = { family = "JetBrainsMono Nerd Font", style = "Italic" }
 bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
