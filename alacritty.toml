@@ -1,4 +1,4 @@
-import = ["~/.config/alacritty/gruvbox.toml"]
+import = ["~/.config/alacritty/tokyo-night.toml"]
 
 [window]
 startup_mode = "Maximized"
@@ -9,7 +9,7 @@ TERM = "xterm-256color"
 
 [font]
 size = 10
-normal      = { family = "JetBrainsMono Nerd Font", style = "Normal" }
+normal      = { family = "JetBrainsMono Nerd Font", style = "Bold" }
 bold        = { family = "JetBrainsMono Nerd Font", style = "Bold" }
 italic      = { family = "JetBrainsMono Nerd Font", style = "Italic" }
 bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
