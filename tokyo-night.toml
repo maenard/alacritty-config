@@ -1,56 +1,40 @@
+# TokyoNight Alacritty Colors
+# Default colors
 [colors.primary]
-background = "#1c1c1c"
-foreground = "#d0d0d0"
-bright_foreground = "#ffffff"
+background = '#222436'
+foreground = '#c8d3f5'
 
 [colors.cursor]
-text = "#1c1c1c"
-cursor = "#d0d0d0"
+cursor = '#c8d3f5'
+text = '#222436'
 
-[colors.vi_mode_cursor]
-text = "CellBackground"
-cursor = "CellForeground"
-
-[colors.selection]
-text = "CellForeground"
-background = "#44475a"
-
+# Normal colors
 [colors.normal]
-black = "#2c2c2c"
-red = "#ff5370"
-green = "#c3e88d"
-yellow = "#ffcb6b"
-blue = "#82aaff"
-magenta = "#c792ea"
-cyan = "#89ddff"
-white = "#eeeeee"
+black = '#1b1d2b'
+red = '#ff757f'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#82aaff'
+magenta = '#c099ff'
+cyan = '#86e1fc'
+white = '#828bb8'
 
+# Bright colors
 [colors.bright]
-black = "#3a3a3a"
-red = "#ff5370"
-green = "#c3e88d"
-yellow = "#ffcb6b"
-blue = "#82aaff"
-magenta = "#c792ea"
-cyan = "#89ddff"
-white = "#ffffff"
+black = '#444a73'
+red = '#ff757f'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#82aaff'
+magenta = '#c099ff'
+cyan = '#86e1fc'
+white = '#c8d3f5'
 
-[colors.search.matches]
-foreground = "#44475a"
-background = "#50fa7b"
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#ff966c'
 
-[colors.search.focused_match]
-foreground = "#44475a"
-background = "#ffb86c"
-
-[colors.footer_bar]
-background = "#1c1c1c"
-foreground = "#d0d0d0"
-
-[colors.hints.start]
-foreground = "#1c1c1c"
-background = "#f1fa8c"
-
-[colors.hints.end]
-foreground = "#f1fa8c"
-background = "#1c1c1c"
+[[colors.indexed_colors]]
+index = 17
+color = '#c53b53'

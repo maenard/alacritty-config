@@ -1,4 +1,4 @@
-import = ["~/.config/alacritty/tokyo-night.toml"]
+import = ["~/.config/alacritty/gruvbox.toml"]
 
 [window]
 startup_mode = "Maximized"
